@@ -1,0 +1,58 @@
+body {
+    background: rgb(31, 27, 27)
+}
+
+p {
+    text-align: center;
+}
+
+article {
+    max-width: 800px;
+    margin: auto;
+}
+
+.handouts {
+    max-width: 400px;
+}
+
+h1 {
+    text-align: center;
+}
+
+article h2, ul, li {
+    text-align: left;
+}
+
+h1 {
+    color: darkseagreen;
+}
+
+h2 {
+    color: darkseagreen;
+}
+
+ul, p {
+    color: seashell;
+}
+
+a {
+    font-family:'Courier New', Courier, monospace;
+}
+
+a:link {
+    color: skyblue;
+}
+
+a:visited {
+    color: violet;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+#disclaimer {
+    margin: auto;
+    width: 400px;
+}
