@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/stylesheet.css?v=1.0.1" />
+    <title>About Me: Aaron Green</title>
+</head>
+<body>
+    <h1>About Me (Work in Progress)</h1>
+    <article>
+    <h2>Texas A&M University Undergraduate Research</h2>
+    <p>During my time studying Chemical Engineering at Texas A&amp;M, I got a chance to couple two modeling techniques: the kinetic Monte-Carlo (kMC) and Partial Differential Equation (PDE). I used these techniques to describe the behavior of a protein that could potentially bind to a random receptor at any moment. The solution was composed using a 2D array representing a lattice of protein concentrations and receptor locations.</p> 
+
+    <p>The kMC model involves generating a random number and comparing it to a set of numerical conditions, each with their own lower and upper bound. Whatever condition the number falls into will execute a specified instruction. Some of the events my research dealt with included: a protein binding to a receptor, a protein un-binding from a receptor, a protein moving to a different receptor, and nothing happening at all.</p>
+
+    <p>The PDE part of the model involved solving the 2D unsteady-state (meaning the equation depended on time as well) diffusion equation. I did this by using the Finite-Difference method, which produces a numerical solution for each location in the lattice by stepping through snapshots in time. Based on the local concentration of proteins, a receptor may be more "hot" or "cold", referring to the likelyhood of a protein to bind there.</p>
+
+    <p>The program was implemented in C# and Matlab, and the published paper is free to read at <a target="_blank" href="https://aiche.onlinelibrary.wiley.com/doi/epdf/10.1002/aic.17453">doi:10.1002/aic.17453</a></p>
+
+    <h2>Oak Ridge National Lab</h2>
+    <p>After I got my Bachelor of Science in Chemical Engineering degree from Texas A&amp;M, I did a five-month co-op at Oak Ridge National Lab. My work there was centered around a device called a Quartz Crystal Microbalance (QCM). A huge advantage of a QCM is its price: an average QCM costs $90<sup><a target="_blank" href="https://qcm-sensors.com/quartz-crystal-microbalance-price/">[1]</a></sup>, while a more traditional microbalance will usually cost $1000<sup><a target="_blank" href="https://www.affordablescales.com/mettler-toledo/analytical-balances/">[2]</a></sup> or more.</p>
+
+    <p>One of the most important properties of a QCM is piezoelectricity. A piezoelectric material is a material that will generate physical force when you subject it to an electrical current. We can leverage this property to detect the changes in current that arise when we perturb the QCM in some way, e.g. adding a thin film on top. We specifically use the change in impedance, which is the opposition to a current. This change in impedance can then tell us some properties of the material that caused the disturbance.</p>
+
+    <p>I used the QCM to chart the evaporation profile of water droplets. I deposited a small amount of water on top of the QCM and then measured the impedance change as the water slowly evaporated. The impedance change indirectly gave me the mass of the water. Plotting the mass over time, I found that the water had to overcome an initial period where no evaporation occurred. A steady curve followed this.</p>
+
+    <figure>
+	    <figcaption>You can view a better quality version of my full poster <a target="_blank" href="/img/poster.pdf">here</a> if you would like to know more.</figcaption>
+    </figure>
+
+    <h2>Hobbies</h2>
+    <p>My main passion outside of coding is rock climbing. I picked it up my freshman year of college when a friend took me to the Texas A&amp;M climbing wall, and I haven't stopped since. I've climbed in Georgia, Colorado, Tennessee, Alabama, and west/central Texas.</p>
+
+    <p>One of the main things that continues to draw me to climbing so much is the infinite possibilities of movement. Foot-holds and hand-holds can be arranged in a huge amount of variations to create a climb. Because climbing is such a technical sport, small differences in the relative locations of things can cause a huge difference in how you need to approach the problem.</p>
+
+    <p>My favorite discipline within climbing is Bouldering, where the routes tend to be shorter and require more power. My lifetime goal in climbing is to do the route <em>Esperanza</em>, which is one of the most difficult routes located in Hueco Tanks Texas State Park. Hueco is a world-class climbing destination that has a gymastic and 3D style of climbing.</p>
+
+    <figure>
+	    <figcaption>A picture of me on <em>Choir Boys</em>, a climb at Hueco Tanks. You can see the full recording <a target="_blank" href="https://www.youtube.com/shorts/NkGDiU3W1w4">here</a></figcaption>
+    </figure>
+    
+    <p><a href="/index.html">--back home--</a></p>
+    </article>
+</body>
+</html>
