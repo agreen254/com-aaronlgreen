@@ -17,22 +17,25 @@ article {
 
 h1 {
     text-align: center;
+    color: darkseagreen;
 }
 
 article h2, ul, li {
     text-align: left;
 }
 
-h1 {
-    color: darkseagreen;
-}
 
 h2 {
     color: darkseagreen;
 }
 
-ul, p {
+h1, h2 {
+    font-family: "Noto Sans", sans-serif;
+}
+
+ul, p, figcaption {
     color: seashell;
+    font-family: "Source Serif Pro", serif;
 }
 
 a {
@@ -55,4 +58,16 @@ ul {
 #disclaimer {
     margin: auto;
     width: 400px;
+}
+
+#baby {
+    border-radius: 2%;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.about {
+    text-align: center;
 }
