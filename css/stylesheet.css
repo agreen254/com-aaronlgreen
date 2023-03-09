@@ -1,80 +1,110 @@
 body {
-    background: rgb(31, 27, 27)
+  background: rgb(31, 27, 27);
 }
 
 p {
-    text-align: center;
+  text-align: center;
 }
 
 article {
-    max-width: 800px;
-    margin: auto;
+  max-width: 800px;
+  margin: auto;
 }
 
 .handouts {
-    max-width: 400px;
+  max-width: 400px;
 }
 
 h1 {
-    text-align: center;
-    color: darkseagreen;
+  text-align: center;
+  color: darkseagreen;
 }
 
-article h2, ul, li {
-    text-align: left;
+article h2,
+ul,
+li {
+  text-align: left;
 }
-
 
 h2 {
-    color: darkseagreen;
+  color: darkseagreen;
 }
 
-h1, h2 {
-    font-family: "Noto Sans", sans-serif;
+h1,
+h2 {
+  font-family: "Noto Sans", sans-serif;
 }
 
-ul, p, figcaption {
-    color: seashell;
-    font-family: "Source Serif Pro", serif;
+ul,
+p,
+figcaption {
+  color: seashell;
+  font-family: "Source Serif Pro", serif;
 }
 
 a {
-    font-family:'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 a:link {
-    color: skyblue;
+  color: skyblue;
 }
 
 a:visited {
-    color: violet;
+  color: violet;
 }
 
 ul {
-    text-align: center;
-    list-style-position: inside;
+  text-align: center;
+  list-style-position: inside;
 }
 
 #disclaimer {
-    margin: auto;
-    width: 400px;
+  margin: auto;
+  width: 400px;
 }
 
 #baby {
-    border-radius: 2%;
+  border-radius: 2%;
 }
 
 figcaption {
-    text-align: center;
+  text-align: center;
 }
 
 .about {
-    text-align: center;
+  text-align: center;
 }
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+}
+
+.latex sub {
+  vertical-align: -0.1ex;
+  margin-left: -0.1667em;
+  margin-right: -0.025em;
+}
+
+.xetex sub {
+  vertical-align: -0.1ex;
+  margin-left: -0.1667em;
+  margin-right: -0.125em;
+}
+
+.latex sub,
+.latex sup,
+.xetex sub {
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+.latex sup {
+  font-size: 0.85em;
+  vertical-align: -0.2em;
+  margin-left: -0.26em;
+  margin-right: -0.05em;
 }
